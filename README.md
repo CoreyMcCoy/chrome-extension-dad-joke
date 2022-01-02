@@ -2,3 +2,7 @@
 
 Once installed, and a user, creates a new tab or window, this extension will override their normal "new tab" behavior and substitute a page displaying a side-splitting Dad Joke
 made possible by the [icanhazdadjoke API](https://icanhazdadjoke.com/api 'icanhazdadjoke.com').
+
+### Accessibility
+
+The text color changes for readability.  
