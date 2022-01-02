@@ -18,17 +18,16 @@ const getNewJoke = async () => {
   const bg = document.querySelector('#background');
   bg.style.backgroundColor = newRGB1;
 
-  //Optional - Update the span and h1 color depending on background color
+  //Optional - Update the <a tag> and <h1> color depending on background color
   const brightness = Math.round((r1 * 299 + g1 * 587 + b1 * 114) / 1000);
 
   h1.style.color = brightness > 120 ? 'black' : 'white';
   a.style.color = brightness > 120 ? 'black' : 'white';
 
   console.log(brightness);
-  // const randomColor1 = Math.floor(Math.random() * 16777215).toString(16);
-  // const bg = document.querySelector('#background');
-  // bg.style.backgroundColor = '#' + randomColor1;
 };
+
+//Page load
 window.addEventListener('DOMContentLoaded', getNewJoke);
 
 //Event Listener
