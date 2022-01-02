@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 75%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+}
+
+div.container .inner-container {
+  position: relative;
+}
+
+h1 {
+  font-size: 3vw;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 1px;
+  color: aliceblue;
+}
+
+div.container button#newJokeBtn {
+  right: 30px;
+}
+
+div.container button {
+  border: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: inherit;
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 18px;
+  position: absolute;
+  bottom: 30px;
+  text-transform: uppercase;
+  transition: all 0.25s ease;
+}
+
+button#newJokeBtn {
+  font-size: 0.8vw;
+}
+
+#newJokeBtn:hover {
+  transform: scale(0.98);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#newJokeBtn:focus {
+  outline: none;
+}
+
+div.container a#broughtToYouBy {
+  left: 40px;
+  bottom: 40px;
+}
+
+div.container a {
+  color: aliceblue;
+  font-size: 0.7vw;
+  position: absolute;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.25s ease;
+}
+
+a > span {
+  text-decoration: underline 2px;
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  opacity: 0.4;
+}
