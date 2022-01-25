@@ -12,4 +12,4 @@ Quickly navigate to Google, Twitter and YouTube.
 The text color changes for readability.
 
 ### Install
-[Chrome Store](https://chrome.google.com/webstore/detail/dad-joke-extension/ndjoobbnemgkgailbbhjbjpmgpochdem)
+From the Chrome Store [Dad Joke Ext](https://chrome.google.com/webstore/detail/dad-joke-extension/ndjoobbnemgkgailbbhjbjpmgpochdem)
