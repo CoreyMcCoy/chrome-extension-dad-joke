@@ -9,4 +9,7 @@ Quickly navigate to Google, Twitter and YouTube.
 
 ### Accessibility
 
-The text color changes for readability.  
+The text color changes for readability.
+
+### Install
+[Chrome Store](https://chrome.google.com/webstore/detail/dad-joke-extension/ndjoobbnemgkgailbbhjbjpmgpochdem)
